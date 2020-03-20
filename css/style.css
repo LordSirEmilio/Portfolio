@@ -1,11 +1,15 @@
 body{
     background-color: rgb(66, 63, 68);
-    height: 100rem;
     padding: 1rem;
-    margin: 10%;
-    margin-top: 2%;
-
+    margin: 0px;
+    background-image: url(https://images.unsplash.com/photo-1568474648512-a8cb15ee40d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-position: center;
+    background-color: rgb(163, 50, 238) ;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
 }
+
+
 
 body::-webkit-scrollbar {
     width: 0.3rem;
@@ -22,18 +26,20 @@ body::-webkit-scrollbar-thumb{
 
 
 #grid{
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+        grid-auto-rows: 240px;
+        gap: 1rem;
+        padding: 1rem;
+        background-color: rgb(39, 27, 48);  
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
-    grid-auto-rows: 240px;
-    gap: 1rem;
 }
 .box{
     text-align: center;
     background-color: rgb(112, 72, 206);
+    
 
-
-    background-position: center;
+   
     
     
 }
@@ -42,35 +48,112 @@ body::-webkit-scrollbar-thumb{
 #bild1
 {
    
-    background-image: url(https://images.unsplash.com/photo-1498887960847-2a5e46312788?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-image: url(https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) ;
+    transition: all .2s ease-in-out;
     background-position: center;
+   
 }
 
 #bild2
 {
 
+    background-image: url(https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    transition: all .2s ease-in-out;
+    background-position: center;
 }
 #bild3
 {
-
+    background-image: url(https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1896&q=80);
+    transition: all .2s ease-in-out;
+    background-position: center;
 }
 #bild4
 {
-
+    background-image: url(https://images.unsplash.com/photo-1485841938031-1bf81239b815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=614&q=80);
+    transition: all .2s ease-in-out;
+    background-position: center;
 }
 #bild5
 {
-
+    background-image: url(https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1123&q=80);
+    transition: all .2s ease-in-out;
+    background-position: center;
 }
 #bild6
 {
-
+    background-image: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    transition: all .2s ease-in-out;
+    background-position: center;
 }
 #bild7
 {
-
+    background-image: url();
+    transition: all .2s ease-in-out;
+    background-position: center;
 }
 #bild8
 {
+    background-image: url();
+    transition: all .2s ease-in-out;
+    background-position: center;
+}
+
+
+
+
+
+
+@media screen and (min-width:660px)
+{
+    body{
+        background-color: rgb(66, 63, 68);
+        
+        padding: 1rem;
+        margin: 10%;
+        margin-top: 2%;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+        grid-auto-rows: 15rem;
+        gap: 1rem;
+    }
+    .tallbox{
+        grid-row: span 2/auto;
+    }
+    .bigbox{
+        grid-column: span 2/auto;
+        grid-row: span 2/auto;
+
+    }
+    .widebox{
+        grid-column: span 2/auto;
+    }
+
+    #bild1:hover{
+        transform: scale(1.04,1.04);
+        border-radius: 2%;   
+    }
+    #bild2:hover{
+        transform: scale(1.04,1.04);   
+    }
+    #bild3:hover{
+        transform: scale(1.04,1.04);   
+    }
+    #bild4:hover{
+        transform: scale(1.04,1.04);   
+    }
+    #bild5:hover{
+        transform: scale(1.04,1.04);   
+    }
+    #bild6:hover{
+        transform: scale(1.04,1.04);   
+    }
+    #bild7:hover{
+        transform: scale(1.04,1.04);   
+    }
+    #bild8:hover{
+        transform: scale(1.04,1.04);   
+    } 
 
 }
