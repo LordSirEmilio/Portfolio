@@ -6,6 +6,9 @@ body{
     background-color: rgb(163, 50, 238) ;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 
@@ -52,51 +55,67 @@ body::-webkit-scrollbar-thumb{
     background-image: url(https://images.unsplash.com/photo-1555182028-3335505b2dde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIxMTIzfQ&auto=format&fit=crop&w=1950&q=80) ;
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
    
 }
 
 #bild2
 {
 
-    background-image: url(https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-image: url(https://images.unsplash.com/photo-1450704944629-6a65f6810cf2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 #bild3
 {
     background-image: url(https://images.unsplash.com/photo-1541028114007-e33143a0a955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 #bild4
 {
-    background-image: url();
+    background-image: url(https://images.unsplash.com/photo-1452727333656-23ae1299777a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 #bild5
 {
-    background-image: url(https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1123&q=80);
+    background-image: url(https://images.unsplash.com/photo-1516527547813-14b9fc6e7f28?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 #bild6
 {
-    background-image: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-image: url(https://images.unsplash.com/photo-1564072021684-429ab786cffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 #bild7
 {
-    background-image: url();
+    background-image: url(https://images.unsplash.com/photo-1549436228-12cb9cabcc93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 #bild8
 {
-    background-image: url();
+    background-image: url(https://images.unsplash.com/photo-1548506632-1579340bb2e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
     transition: all .2s ease-in-out;
     background-position: center;
+    background-color: rgb(205, 40, 60);
+    background-blend-mode: screen;
 }
 
 
@@ -104,7 +123,7 @@ body::-webkit-scrollbar-thumb{
 
 
 
-@media screen and (min-width:660px)
+@media screen and (min-width:680px)
 {
     
 
@@ -135,38 +154,79 @@ body::-webkit-scrollbar-thumb{
     .widebox{
         grid-column: span 2/auto;
     }
+    #bild8{
+        grid-column: span 2/auto;
+        
+    }
 
     #bild1:hover{
         transform: scale(1.04,1.04);
-        border-radius: 0.75rem;   
+        border-radius: 0.75rem;
+        background-color: rgb(61, 10, 16); 
     }
     #bild2:hover{
         transform: scale(1.04,1.04);
-        border-radius: 0.75rem;  
+        border-radius: 0.75rem;
+        background-color: rgb(61, 10, 16); 
     }
     #bild3:hover{
         transform: scale(1.04,1.04);
         border-radius: 0.75rem;
+        background-color: rgb(61, 10, 16);
     }
     #bild4:hover{
         transform: scale(1.04,1.04);
-        border-radius: 0.75rem;  
+        border-radius: 0.75rem; 
+        background-color: rgb(61, 10, 16); 
     }
     #bild5:hover{
         transform: scale(1.04,1.04); 
-        border-radius: 0.75rem;  
+        border-radius: 0.75rem; 
+        background-color: rgb(61, 10, 16);
     }
     #bild6:hover{
         transform: scale(1.04,1.04); 
-        border-radius: 0.75rem; 
+        border-radius: 0.75rem;
+        background-color: rgb(61, 10, 16); 
     }
     #bild7:hover{
         transform: scale(1.04,1.04);
-        border-radius: 0.75rem;   
+        border-radius: 0.75rem;  
+        background-color: rgb(61, 10, 16); 
     }
     #bild8:hover{
         transform: scale(1.04,1.04);
         border-radius: 0.75rem;
+        background-color: rgb(61, 10, 16);
     } 
 
+}
+
+
+
+@media screen and (min-width:1020px)
+{
+        
+    #bild8{
+        grid-column: span 3/auto;
+        
+    }
+
+}
+
+@media screen and (min-width:1340px){
+
+    #bild8{
+        grid-column: span 4/auto;
+        
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(4, minmax(15rem,20rem));
+        
+        
+        
+    }
+    
 }
