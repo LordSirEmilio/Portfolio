@@ -32,14 +32,52 @@ body::-webkit-scrollbar-thumb{
 
 }
 .box{
-    text-align: center;
-    background-color: rgb(239, 255, 16);
-    
-
-   
-    
     
 }
+
+h3{
+    text-align: center;
+    margin: auto;
+    font-size: 20pt;
+    background-color: seashell;
+
+    
+}
+#project-a
+{
+    font-family: 'Abril Fatface', cursive;
+}
+#project-b
+{
+    font-family: 'Righteous', cursive;
+
+}
+#project-c
+{
+    font-family: 'Bebas Neue', cursive;
+}
+#project-d
+{
+    font-family: 'Fredoka One', cursive;
+}
+#project-e
+{
+    font-family: 'Special Elite', cursive;
+}
+#project-f
+{
+    font-family: 'Orbitron', sans-serif;
+}
+#project-g
+{
+    font-family: 'BenchNine', sans-serif;
+}
+#project-h
+{
+    font-family: 'BenchNine', sans-serif;
+}
+
+
 
 
 #bild1
@@ -153,6 +191,7 @@ body::-webkit-scrollbar-thumb{
         transform: scale(1.04,1.04);
         border-radius: 0.75rem;
         background-color: rgb(61, 10, 16); 
+
     }
     #bild2:hover{
         transform: scale(1.04,1.04);
