@@ -40,7 +40,8 @@ h3{
     margin: auto;
     font-size: 20pt;
     background-color: seashell;
-
+    padding-top: 3px;
+    padding-bottom: 3px;
     
 }
 #project-a
