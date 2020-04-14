@@ -4,17 +4,56 @@ background-color: rgb(71, 71, 78);
 
 }
 i{
-    font-size: 4.5vw;
+    font-size: 10vh;
    
     color: #853f7b;
+    align-content: center;
+    justify-content: center;
 }
 
+.link-text{
+        
+        
+    transition: color .3s ease;
 
+    color: rgba(173, 173, 173, 0);
+    
+    font-size: 15pt;
+    font-family: 'Righteous' ;
+    margin-left: 3vw;
+    display: none;
+    
+}
+
+.nav-item{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
 
 .navbar{
     list-style: none;
     padding: 0px;
     margin: 0px;
+    bottom: 0;
+    width: 100vw;
+    position: fixed;
+    height: 14vh;
+    background-color: rgb(56, 49, 58);
+
+
+    
+}
+
+
+.navbar-nav{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 
 h1{
@@ -188,6 +227,12 @@ h3{
         margin: 0px;
     }
 
+    i{
+        font-size: 4.5vw;
+       
+        color: #853f7b;
+    }
+
     .navbar{
         width: 6vw;
         height: 100vh;
@@ -195,6 +240,10 @@ h3{
         background-color: rgb(56, 49, 58);
         flex-direction: column;
         transition: all 0.5s ease;    
+    }
+
+    .nav-item{
+        margin: 0px;
     }
 
     #home{
@@ -224,12 +273,13 @@ h3{
         
         
         transition: color .3s ease;
-
+        display: inline;
         color: rgba(173, 173, 173, 0);
         
         font-size: 15pt;
         font-family: 'Righteous' ;
         margin-left: 3vw;
+        
         
         
         
@@ -249,16 +299,16 @@ h3{
     }
     .navbar:hover .link-text{
         
-        width: 20vw;
+        
+
+        display: inline;
         
         color: rgb(167, 167, 167);
     }
 
 
 
-    .nav-item:last-child{
-       
-    }
+    
 
     body{
         margin: 0px;
