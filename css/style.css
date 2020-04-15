@@ -1,8 +1,91 @@
 body{
-background-color: rgb(226, 226, 226);
+background-color: rgb(222, 223, 233);
     margin: 0px;
 
 }
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.home-struktur{
+    display: grid;
+    grid-template-rows: 12rem 12rem 12rem 12rem;
+    grid-template-columns: 10rem 10rem;
+    gap: 1rem;
+    margin-bottom: 14vh;
+}
+
+
+
+.h3-round{
+    border-top-left-radius:3rem ;
+    border-top-right-radius: 3rem ;
+}
+
+
+
+
+.textkeeper{
+    border-radius: 3rem;
+}
+
+
+#textkeeper-1{
+    background-color: rgb(208, 205, 255);
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+
+#textkeeper-2{
+    background-color: rgb(225, 192, 250);
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+
+#textkeeper-3{
+    background-color: rgb(208, 205, 255);
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#textkeeper-4{
+    background-color: rgb(225, 192, 250);
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+p{
+    font-size: 7pt;
+    padding: 1rem;
+}
+
+
+.FlexContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:  50%;
+  }
+  
+  td, th {
+    border: 2px solid #5746a1;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b2aad6;
+  }
+
 i{
     font-size: 10vh;
    
@@ -60,8 +143,6 @@ i{
     position: fixed;
     height: 14vh;
     background-color: rgb(56, 49, 58);
-
-
     
 }
 
@@ -79,10 +160,12 @@ i{
 h1{
     text-align: center;
     font-size: 40pt;
-    color: rgb(77, 68, 68);
+    color: rgb(13, 0, 255);
     font-family:  'BenchNine',  cursive;
     font-weight: 200;
     margin: 0px;
+    background-color: rgb(56, 49, 58);
+    
 }
 
 
@@ -121,6 +204,7 @@ h3{
     color: rgb(234, 231, 241);
     padding-top: 3px;
     padding-bottom: 3px;
+
     
 }
 #project-a
@@ -236,6 +320,23 @@ h3{
 
 @media screen and (min-width:690px)
 {
+    .home-struktur{
+        margin-top: 10rem;
+        display: grid;
+        grid-template-rows: 16rem 16rem 16rem 16rem;
+        grid-template-columns: 25vw 25vw;
+        gap: 2rem;
+        margin-bottom: 14vh;
+    
+    
+    }
+    p{
+        font-size: 11pt;
+    }
+    
+
+
+
     h1{
         text-align: center;
         font-size: 100pt;
@@ -406,7 +507,7 @@ h3{
 
 
 
-@media screen and (min-width:1020px)
+@media screen and (min-width:980px)
 {
         
     #bild8{
@@ -416,7 +517,7 @@ h3{
 
 }
 
-@media screen and (min-width:1340px){
+@media screen and (min-width:1300px){
 
     #bild8{
         grid-column: span 4/auto;
