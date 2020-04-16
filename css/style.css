@@ -30,6 +30,17 @@ html {
     border-radius: 3rem;
 }
 
+#textkeeper-kontakt{
+    margin-top: 4rem;
+    border-radius: 0;
+    width: 70vw;
+    background-color:rgb(208, 205, 255) ;
+
+    border: solid black 1px;
+
+    
+}
+
 
 #textkeeper-1{
     background-color: rgb(208, 205, 255);
@@ -67,24 +78,35 @@ p{
     display: flex;
     justify-content: center;
     align-content: center;
-    
+    flex-wrap: wrap;
+
 }
+
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width:  50%;
+    margin-top: 4rem;
   }
   
   td, th {
     border: 2px solid #5746a1;
     text-align: left;
     padding: 8px;
+    font-family: 'Righteous', cursive;
+    
+
   }
   
-  tr:nth-child(even) {
-    background-color: #b2aad6;
+  tr{
+      background-color: rgb(193, 218, 255);
   }
+
+  tr:nth-child(even) {
+    background-color: #9fc5f7;
+  }
+  
 
 i{
     font-size: 10vh;
@@ -158,6 +180,7 @@ i{
 }
 
 h1{
+
     text-align: center;
     font-size: 40pt;
     color: rgb(13, 0, 255);
@@ -165,6 +188,7 @@ h1{
     font-weight: 200;
     margin: 0px;
     background-color: rgb(56, 49, 58);
+    
     
 }
 
@@ -204,6 +228,8 @@ h3{
     color: rgb(234, 231, 241);
     padding-top: 3px;
     padding-bottom: 3px;
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
 
     
 }
@@ -323,15 +349,15 @@ h3{
     .home-struktur{
         margin-top: 10rem;
         display: grid;
-        grid-template-rows: 16rem 16rem 16rem 16rem;
-        grid-template-columns: 25vw 25vw;
+        grid-template-rows: 19vw 19vw 19vw 19vw;
+        grid-template-columns: 28vw 28vw;
         gap: 2rem;
         margin-bottom: 14vh;
     
     
     }
     p{
-        font-size: 11pt;
+        font-size: 1.2vw;
     }
     
 
@@ -339,11 +365,12 @@ h3{
 
     h1{
         text-align: center;
-        font-size: 100pt;
+        font-size: 8vw;
         
         font-family:  'BenchNine',  cursive;
         font-weight: 200;
         margin: 0px;
+        height: 10vw;
     }
 
     i{
@@ -514,6 +541,12 @@ h3{
         grid-column: span 3/auto;
         
     }
+    .home-struktur{
+
+        grid-template-rows: 16vw 16vw 16vw 16vw;
+
+    
+    }
 
 }
 
@@ -532,5 +565,12 @@ h3{
     display: flex;
     justify-content: center;
     align-content: center;
+    }
+
+    .home-struktur{
+
+        grid-template-rows: 14vw 14vw 14vw 14vw;
+
+    
     }
 }
